@@ -1,0 +1,33 @@
+# Audio download
+yt-dlp
+
+# Audio analysis
+librosa
+soundfile
+audioread
+
+# Lyrics
+lyricsgenius
+
+# NLP
+nltk
+textblob
+wordcloud
+
+# Data
+pandas
+numpy
+
+# Visualization
+matplotlib
+seaborn
+plotly
+kaleido
+
+# Clustering
+scikit-learn
+
+# Utilities
+python-dotenv
+tqdm
+ipywidgets
