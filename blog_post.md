@@ -36,8 +36,6 @@ All of this runs in a single Jupyter notebook (~300 lines of Python). Now, here'
 
 ### 1. One song is on a completely different planet
 
-![Tempo Comparison](visuals/tempo_comparison.png)
-
 **Blinding Lights — The Weeknd: 5.34 billion streams.**
 
 The #2 song (Shape of You, Ed Sheeran) has 4.83B. That's a 500 million stream gap — bigger than the entire gap between positions #2 and #12. No other song on this list comes close. It's not just the most-streamed song ever. It's statistically alone at the top.
@@ -46,7 +44,7 @@ The #2 song (Shape of You, Ed Sheeran) has 4.83B. That's a 500 million stream ga
 
 ### 2. The "sweet spot" tempo for a hit is 118 BPM
 
-![Tempo Comparison Chart](visuals/tempo_comparison.png)
+![Tempo — BPM for all 30 songs](visuals/tempo_comparison.png)
 
 The average tempo across all 30 songs is **118 BPM**. That's the classic pop-dance range — fast enough to feel energetic, slow enough to sing along with. Most songs sit between 86–130 BPM. This isn't a coincidence: human walking pace is ~100 BPM, and music in that zone syncs naturally with how our bodies move.
 
@@ -80,6 +78,8 @@ The audio analysis measured Ed Sheeran's *Perfect* at **184.57 BPM** — the hig
 
 ### 7. Dance Monkey is the most repetitive song — and it worked
 
+![Word Clouds — most-used words per song](visuals/wordclouds.png)
+
 *Dance Monkey* by Tones and I has a **lexical diversity of 0.160** — the lowest on the list. That means only 16% of its words are unique. Nearly everything is repeated. 3.41 billion streams later, the earworm strategy is clearly valid. Repetition isn't laziness — it's engineering.
 
 ---
@@ -108,13 +108,15 @@ The audio analysis measured Ed Sheeran's *Perfect* at **184.57 BPM** — the hig
 
 ### 11. The quietest song is nearly silent by audio measurements
 
+![Waveforms — all 30 songs](visuals/waveforms.png)
+
 *Another Love* by Tom Odell has an **RMS energy score of 0.057** — compared to 0.328 for *As It Was* (Harry Styles), the most energetic song on the list. That's nearly **6× less audio energy**. A sparse piano and a quiet vocal. And still: 3.49 billion streams. The data proves that restraint can be just as powerful as volume.
 
 ---
 
 ### 12. Python found 5 hidden "tribes" in mainstream pop — with no genre labels
 
-![PCA Clusters](visuals/clusters_pca.html)
+![Spectrograms — frequency analysis for all 30 songs](visuals/spectrograms.png)
 
 K-means clustering grouped all 30 songs into 5 distinct clusters using only math — no genre tags, no human input:
 
@@ -143,6 +145,8 @@ Billie Eilish has two songs on this list. *lovely* (with Khalid) landed in the *
 ---
 
 ### 15. The Weeknd has two songs in the top 5 — and they sound almost identical
+
+![Correlation Heatmap](visuals/correlation_heatmap.png)
 
 *Blinding Lights* (#1, 5.34B) and *Starboy* (#4, 4.44B) both landed in the same cluster — High-Energy Modern Pop. The cosine similarity matrix confirms they score high on shared features: bright spectral signature, strong percussive energy, mid-high tempo, and maximum positive sentiment. Years apart, different albums, different collaborators (Daft Punk on Starboy). Same sonic DNA. That kind of consistency isn't accidental — it's a brand.
 
